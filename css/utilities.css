@@ -33,6 +33,62 @@
     transform: scale(0.98);
 }
 
+/*Backgrounds and colour buttons*/
+
+.bg-primary, .btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.bg-secondary, .btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.bg-dark, .btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.bg-light, .btn-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
+.bg-primary a, 
+.btn-primary a,
+ .bg-secondary a,
+  .btn-secondary a,
+ .bg-dark a,
+  .btn-dark a,
+  .bg-light a,
+   .btn-light a {
+color: #fff;
+  }
+
+
+/*Text-sizes*/
+
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
+}
+
 .text-center {
     text-align: center;
 }
@@ -99,6 +155,7 @@
 }
 
 /*Padding*/
+
 .py-1 {
     padding: 1rem 0;
 }
